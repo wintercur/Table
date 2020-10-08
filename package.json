@@ -1,0 +1,43 @@
+{
+  "name": "react-mobx-todolist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.9.1",
+    "babel-plugin-import": "^1.8.0",
+    "mobx": "^5.1.0",
+    "mobx-react": "^5.2.6",
+    "react": "^16.5.0",
+    "react-app-rewire-antd": "^1.0.3",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "antd",
+    "mobx",
+    "react"
+  ],
+  "description": "利用antd组件实现的todolist,",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.3",
+    "prettier": "^2.1.2"
+  }
+}
