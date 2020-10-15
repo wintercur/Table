@@ -5,7 +5,7 @@ import Store from './store/Store'
 import {observer, Provider} from 'mobx-react';
 import {EditableTable} from './components/Table'
 import {Table2} from './components/TablePage1'
-import Demo from './components/TablePage1'
+//import Demo from './components/TablePage1'
 
 import {BrowserRouter} from "react-router-dom";
 
