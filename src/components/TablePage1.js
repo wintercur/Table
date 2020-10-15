@@ -18,40 +18,40 @@ const EditableFormRow = Form.create()(EditableRow);
 
 const { TreeNode } = Tree;
 
-@observer
-class Demo extends React.Component {
-  onSelect = (selectedKeys, info) => {
-  };
+// @observer
+// class Demo extends React.Component {
+//   onSelect = (selectedKeys, info) => {
+//   };
 
-  onCheck = (checkedKeys, info) => {
-  };
+//   onCheck = (checkedKeys, info) => {
+//   };
 
-  render() {
-    return (
-      <Tree
-        checkable
-        defaultExpandedKeys={["0-0-0", "0-0-1"]}
-        defaultSelectedKeys={["0-0-0", "0-0-1"]}
-        defaultCheckedKeys={["0-0-0", "0-0-1"]}
-        onSelect={this.onSelect}
-        onCheck={this.onCheck}
-      >
-        <TreeNode title="User 1" key="0-0">
-          <TreeNode title="parent 1" key="0-0-0">
-            <TreeNode title="Data 1.1" key="0-0-0-0" />
-            <TreeNode title="Data 2.1" key="0-0-0-1" />
-          </TreeNode>
-          <TreeNode title="parent 2" key="0-0-1">
-            <TreeNode title="Data 2.1" key="0-0-0-0" />
-            <TreeNode title="Data 2.1" key="0-0-0-1" />
-          </TreeNode>
-        </TreeNode>
-      </Tree>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <Tree
+//         checkable
+//         defaultExpandedKeys={["0-0-0", "0-0-1"]}
+//         defaultSelectedKeys={["0-0-0", "0-0-1"]}
+//         defaultCheckedKeys={["0-0-0", "0-0-1"]}
+//         onSelect={this.onSelect}
+//         onCheck={this.onCheck}
+//       >
+//         <TreeNode title="User 1" key="0-0">
+//           <TreeNode title="parent 1" key="0-0-0">
+//             <TreeNode title="Data 1.1" key="0-0-0-0" />
+//             <TreeNode title="Data 2.1" key="0-0-0-1" />
+//           </TreeNode>
+//           <TreeNode title="parent 2" key="0-0-1">
+//             <TreeNode title="Data 2.1" key="0-0-0-0" />
+//             <TreeNode title="Data 2.1" key="0-0-0-1" />
+//           </TreeNode>
+//         </TreeNode>
+//       </Tree>
+//     );
+//   }
+// }
 
-export default Demo;
+// export default Demo;
 
 @observer
 export class Table2 extends React.Component {
