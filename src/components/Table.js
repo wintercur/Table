@@ -59,6 +59,7 @@ class EditableCell extends React.Component {
                         message: `Please Input ${title}!`
                       }
                     ],
+                    )}
                     initialValue: dataIndex === 'email' ? (record[dataIndex]) : record[dataIndex]
                   })(this.getInput(record))}
                 </FormItem>
